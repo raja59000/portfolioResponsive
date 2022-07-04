@@ -770,13 +770,42 @@ label, #toggle
 	#title-projets{
 		font-size: 35px; 
 	}
-	#projets{
+	#projets-img{
 		display: flex;
+		/* flex-direction: column; */
+		flex-direction: column;
 		flex-wrap: wrap;
+		margin-left: 50px;
+
 	}
-	#projets2{
+
+	#projets{
+		height: 1250px;
+	}
+
+	#projets img{
+		width: 350px;
+		height : 400px;
+	}
+	#projets2-img{
 		display: flex;
+		flex-direction: column;
 		flex-wrap: wrap;
+
+	}
+
+#projets2 img{
+		width: 350px;
+		height : 400px;
+		
+	}
+	.img-text2{
+		
+		margin-left: 50px;
+		margin-top: 20px;
+	}
+	figcaption p{
+		font-size: 12px;
 	}
 
   }
