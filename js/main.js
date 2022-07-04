@@ -26,7 +26,7 @@ function changebginit(){
 
 $(document).scroll(function() {
     var y = $(this).scrollTop();
-    if (y > 600) {
+    if (y > 400) {
       $('#backtop').show();
     } else {
       $('#backtop').hide();

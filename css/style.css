@@ -13,6 +13,8 @@
 	background-color: #3e3e3e;
 }
 
+/*****************************  NAV + LOGO + HERO  *******************************************/
+
 .hero{
 	height: 100vh;
 	width: 100%;
@@ -116,6 +118,11 @@ h4{
 	top: 6px;
 	right: 6px; 
 }
+
+
+
+
+/*************************************** SECTION COMPETENCES **************************************/
 
 #competences{
 	width: 100%;
@@ -244,9 +251,142 @@ body, html, section, div{
 	height: 90px
 }
 
+/**************************** SECTION PROJETS *******************************************/
+
+#projets2{
+	width: 100%;
+	height: 700px;
+	background-color: #3e3e3e;
+  }
+
+  .img-text2{
+	margin-left: 220px;
+  }
 
 
-/*-------------CONTACT FORM -------------*/
+  .cursor {
+    width: 40px;
+    height: 40px;
+    border: 2px dotted #7451EB ;
+    border-radius: 50%;
+    position: absolute;
+    animation: Anim1 1s infinite alternate;
+  pointer-events: none;
+}
+
+.cursor::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 5px;
+    height: 5px;
+    background:#7451EB ;
+    border-radius: 50%;
+}
+
+.expand {
+    animation: Anim2 .5s;
+    background: #7451EB;
+    border: 1px solid #7451EB;
+}
+
+
+
+#myProgress1 {
+	width: 100%;
+	height: 10px;
+	background-color: white;
+  }
+  
+  #myBar1 {
+	width: 80%;
+	height: 10px;
+	background-color: #7451EB;
+	animation: progressAnimation2 5s;
+  }
+
+  #myProgress2 {
+	width: 100%;
+	height: 10px;
+	background-color: white;
+  }
+  
+  #myBar2 {
+	width: 80%;
+	height: 10px;
+	background-color: #7451EB;
+	animation: progressAnimation2 5s;
+  }
+
+  #myProgress3 {
+	width: 100%;
+	height: 10px;
+	background-color: white;
+  }
+  
+  #myBar3 {
+	width: 60%;
+	height: 10px;
+	background-color: #7451EB;
+	animation: progressAnimation1 5s;
+  }
+
+  #myProgress4 {
+	width: 100%;
+	height: 10px;
+	background-color: white;
+  }
+  
+  #myBar4 {
+	width: 80%;
+	height: 10px;
+	background-color: #7451EB;
+	animation: progressAnimation2 5s;
+  }
+
+  #myProgress5 {
+	width: 100%;
+	height: 10px;
+	background-color: white;
+  }
+  
+  #myBar5 {
+	width: 60%;
+	height: 10px;
+	background-color: #7451EB;
+	animation: progressAnimation1 5s;
+  }
+
+  #myProgress6 {
+	width: 100%;
+	height: 10px;
+	background-color: white;
+  }
+  
+  #myBar6 {
+	width: 60%;
+	height: 10px;
+	background-color: #7451EB;
+	animation: progressAnimation1 5s;
+
+  }
+
+  #myProgress7 {
+	width: 100%;
+	height: 10px;
+	background-color: white;
+  }
+  
+  #myBar7 {
+	width: 60%;
+	height: 10px;
+	background-color: #7451EB;
+	animation: progressAnimation1 5s;
+  }
+
+/************************* SECTION CONTACT **********************/
 
 *, *:before, *:after {
 	box-sizing: border-box;
@@ -436,6 +576,7 @@ body, html, section, div{
 	margin-top: calc(100vh + var(--offset));
 	
 	/* visual styling */
+
 	text-decoration: none;
 	padding: 10px;
 	font-family: sans-serif;
@@ -466,138 +607,10 @@ body, html, section, div{
 	background-size: cover;
   }
 
-  #projets2{
-	width: 100%;
-	height: 700px;
-	background-color: #3e3e3e;
-  }
-
-  .img-text2{
-	margin-left: 220px;
-  }
-
-
-  .cursor {
-    width: 40px;
-    height: 40px;
-    border: 2px dotted #7451EB ;
-    border-radius: 50%;
-    position: absolute;
-    animation: Anim1 1s infinite alternate;
-  pointer-events: none;
-}
-
-.cursor::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 5px;
-    height: 5px;
-    background:#7451EB ;
-    border-radius: 50%;
-}
-
-.expand {
-    animation: Anim2 .5s;
-    background: #7451EB;
-    border: 1px solid #7451EB;
-}
-
-
-
-#myProgress1 {
-	width: 100%;
-	height: 10px;
-	background-color: white;
-  }
   
-  #myBar1 {
-	width: 80%;
-	height: 10px;
-	background-color: #7451EB;
-	animation: progressAnimation2 5s;
-  }
 
-  #myProgress2 {
-	width: 100%;
-	height: 10px;
-	background-color: white;
-  }
-  
-  #myBar2 {
-	width: 80%;
-	height: 10px;
-	background-color: #7451EB;
-	animation: progressAnimation2 5s;
-  }
 
-  #myProgress3 {
-	width: 100%;
-	height: 10px;
-	background-color: white;
-  }
-  
-  #myBar3 {
-	width: 60%;
-	height: 10px;
-	background-color: #7451EB;
-	animation: progressAnimation1 5s;
-  }
-
-  #myProgress4 {
-	width: 100%;
-	height: 10px;
-	background-color: white;
-  }
-  
-  #myBar4 {
-	width: 80%;
-	height: 10px;
-	background-color: #7451EB;
-	animation: progressAnimation2 5s;
-  }
-
-  #myProgress5 {
-	width: 100%;
-	height: 10px;
-	background-color: white;
-  }
-  
-  #myBar5 {
-	width: 60%;
-	height: 10px;
-	background-color: #7451EB;
-	animation: progressAnimation1 5s;
-  }
-
-  #myProgress6 {
-	width: 100%;
-	height: 10px;
-	background-color: white;
-  }
-  
-  #myBar6 {
-	width: 60%;
-	height: 10px;
-	background-color: #7451EB;
-	animation: progressAnimation1 5s;
-
-  }
-
-  #myProgress7 {
-	width: 100%;
-	height: 10px;
-	background-color: white;
-  }
-  
-  #myBar7 {
-	width: 60%;
-	height: 10px;
-	background-color: #7451EB;
-	animation: progressAnimation1 5s;
-  }
+  /* BACK TO TOP BUTTON */
 
   #backtop{
 	display: none;
