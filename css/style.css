@@ -729,9 +729,7 @@ label, #toggle
 	.competences-text{
 		width : auto;
 	}
-	.competences-visu .reveal{
-		margin-top: 50px;
-	}
+	
   
 	.screen-body-item.left {
 	  margin-bottom: 30px;
@@ -758,8 +756,36 @@ label, #toggle
 	.screen-body-item {
 	  padding: 0;
 	}
+	#competences-bar{
+		display: flex;
+		flex-direction: column;
+		margin-left: 90px;
+		margin-top: 30px;
+		padding: 10px;
+	}
+
+	#title-competences{
+		font-size: 55px;
+	}
+	#title-projets{
+		font-size: 35px; 
+	}
+	#projets{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#projets2{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
   }
 
   @media screen and (max-width: 375px) {
-	
+	#title-competences{
+		font-size: 55px;
+	}
+	#title-projets{
+		font-size: 35px; 
+	}
   }
