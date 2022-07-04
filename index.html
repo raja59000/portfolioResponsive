@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<script src="js/jquery-3.6.0.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+	
+	<!----hero Section start---->
+	<div class="cursor"></div>
+	<div class="hero" id="hero">
+		<nav>
+			<h2 class="logo">Portfo<span>lio</span></h2>
+				
+			<label for="toggle">☰</label>
+			<input type="checkbox" id="toggle">
+			<ul id="main-pages">
+				<li><a class="active" href="index.html">Accueil</a></li>
+				<li><a href="#competences">Compétences</a></li>
+				<li><a href="#projets">Projets</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+			
+			<a href="https://fr.linkedin.com/in/remi-gallois-b7a55a206" class="btn"><i class="fab fa-linkedin"></i></a>
+		</nav>
+
+		<div class="content">
+			<div class="opacity">
+				<h1>Rémi <span>Gallois</span></h1>
+			</div>
+			<h3>Je suis en recherche d'un stage de Développeur Web Full-Stack</h3>
+			<div class="newsletter">
+				<form>
+					<input type="email" name="email" id="mail" placeholder="Votre mail ici">
+					<input type="submit" name="submit" value="Allons-y!">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!----About section start---->
+	<section id="competences">
+		<div class="main">
+			<div class="competences-text">
+				<h2>Compétences</h2>
+				<h5>Developpeur <span>Full-Stack</span></h5>
+				<p>En formation à l'AFPA de Mornac depuis le 16 Mai 2022, et m'étant déja auto-formé auparavant, je suis capable de réaliser des interfaces web, de les rendre responsive ainsi que de prendre en charge la partie back-end de celles-ci </p>
+				<a href="#contact"><button type="button">Contactez-moi</button></a>
+			</div>
+			<div class="competences-visu reveal" id="competences-bar">
+				<div>
+					<h4>HTML 5:</h4>
+					<div id="myProgress1">
+						<div id="myBar1"></div>
+					</div>
+				</div><br>
+				<div>
+					<h4>CSS 3:</h4>
+					<div id="myProgress2">
+						<div id="myBar2"></div>
+					</div>
+				</div><br>
+				<div>
+					<h4>JavaScript:</h4>
+					<div id="myProgress3">
+						<div id="myBar3"></div>
+					</div>
+				</div><br>
+				<div>
+					<h4>Bootstrap 5:</h4>
+					<div id="myProgress4">
+						<div id="myBar4"></div>
+					</div>
+				</div><br>
+				<div>
+					<h4>Jquery:</h4>
+					<div id="myProgress5">
+						<div id="myBar5"></div>
+					</div>
+				</div><br>
+				<div>
+					<h4>PHP 8:</h4>
+					<div id="myProgress6">
+						<div id="myBar6"></div>
+					</div>
+				</div><br>
+				<div>
+					<h4>mySQL:</h4>
+					<div id="myProgress7">
+						<div id="myBar7"></div>
+					</div>
+				</div>
+					
+					
+				
+				
+
+			</div>
+		</section>
+		<div id="bas-fond">
+		<section id="projets">
+			<h2 id="title-projet">Projets</h2>
+		<div id="projets-img">
+	
+			<div class="img-text">
+				<figure>
+					<img onmouseover="changebg()" onmouseout="changebginit()" src="img/onemillion.png" alt="Site One Million">
+				<figcaption>
+					<p>Réalisation de la partie front-end <br> d'une interface web responsive (bootstrap) en one-page <br> avec smoothscroll. </p>
+				</figcaption>
+				</figure>
+			</div>
+
+			<div class="img-text">
+				<figure>
+					<a href="https://www.remigallois.com/" target="_blank"><img onmouseover="changebg()" onmouseout="changebginit()" src="img/RG site - Lille.png" alt="Site Rémi"></a>
+					<figcaption>
+						<p>Réalisation d'un site vitrine avec le CMS Wordpress et le pagebuilder <br> Elementor.</p>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+		</section>
+		<section id="projets2">
+			<div class="img-text2" >
+				<figure>
+					<a href="https://pierrealexisfirmin.com/" target="_blank"><img onmouseover="changebg()" onmouseout="changebginit()" src="img/Firmin Photographie.png" alt="Site Photo"></a>
+					<figcaption>
+						<p>Réalisation d'un site vitrine avec le CMS Wordpress et le pagebuilder <br> Elementor.</p>
+					</figcaption>
+				</figure>
+			</div>
+		</section>
+		<section id="contact">
+			<div class="background">
+				<div class="container">
+				  <div class="screen">
+					<div class="screen-header">
+					  <div class="screen-header-left">
+						<div class="screen-header-button close"></div>
+						<div class="screen-header-button maximize"></div>
+						<div class="screen-header-button minimize"></div>
+					  </div>
+					  <div class="screen-header-right">
+						<div class="screen-header-ellipsis"></div>
+						<div class="screen-header-ellipsis"></div>
+						<div class="screen-header-ellipsis"></div>
+					  </div>
+					</div>
+					<div class="screen-body">
+					  <div class="screen-body-item left">
+						<div class="app-title">
+						  <span>CONTACTEZ</span>
+						  <span>MOI</span>
+						  <hr>
+						</div>
+						<div class="app-contact">155 Avenue Gambetta,<br>16000 - Angoulême<br>TEL : +33 6 70 16 90 93</div>
+					  </div>
+					  <div class="screen-body-item">
+						<div class="app-form">
+						  <div class="app-form-group">
+							<input class="app-form-control" placeholder="NOM">
+						  </div>
+						  <div class="app-form-group">
+							<input class="app-form-control" placeholder="EMAIL">
+						  </div>
+						  <div class="app-form-group">
+							<input class="app-form-control" placeholder="TELEPHONE">
+						  </div>
+						  <div class="app-form-group message">
+							<input class="app-form-control" placeholder="MESSAGE">
+						  </div>
+						  <div class="app-form-group buttons">
+							<button class="app-form-button">ANNULER</button>
+							<button class="app-form-button">ENVOYER</button>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  
+			
+		</section>
+		</div>
+		
+		
+	<!-----service section start----------->
+	
+
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	
+	<footer>
+		
+	</footer>
+
+	<button class="back-to-top" id="backtop"> <a href="#hero">Haut de page</a></button>
+	<div id="compteur"></div>
+	
+</body>
+</html>
