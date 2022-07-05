@@ -38,7 +38,19 @@ nav{
 	padding-right: 8%;
 }
 
+.menuResponsive{
+	width: 100%;
+	display: block;
+}
 
+.navResponsive{
+	display: block;
+	
+
+}
+.burger-logo{
+	display: none;
+}
 
 .logo{
 	color: white;
@@ -773,10 +785,22 @@ body, html, section, div{
 	figcaption p{
 		font-size: 12px;
 	}
+	.nav1{
+		display: none;
+	}
+
+	.burger-logo{
+		display: flex;
+		text-align: center;
+		color: white;
+		font-size: 40px;
+		cursor: pointer;
+	}
+	
 
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 450px) {
 	#title-competences{
 		font-size: 55px;
 	}
@@ -784,7 +808,18 @@ body, html, section, div{
 		font-size: 35px; 
 	}
 	
-
-
+	.nav1{
+		display: none;
+	}
+	
+	
+	.navResponsive{
+		display: block;
+		
+	
+	}
+	.menuResponsive{
+		margin-left: 80px;
+	}
 	
   }

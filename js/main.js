@@ -34,3 +34,9 @@ $(document).scroll(function() {
   });
 
 
+ $(document).ready(function(){
+  $('.menuResponsive').hide();
+  $('.burger-logo').click(function(){
+    $('.menuResponsive').toggle();
+})
+ }) ;
