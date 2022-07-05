@@ -15,23 +15,9 @@
 
 
 /*****************************  NAV + LOGO + HERO  *******************************************/
-#CmdMenu { 
-	position :fixed; 
-	top :4px; 
-	right :4px; 
-	z-index :50;
-	padding:5px 8px; 
-	color:white;
-	border-radius:5px;
-	cursor:pointer;
-  }
 
-  .burger-menu {
-	flex-direction:column;
-  }
-  #CmdMenu { 
-	display:block;
-  }
+
+  
 
 .hero{
 	height: 100vh;
@@ -687,38 +673,11 @@ body, html, section, div{
 	}
 	
 
-	#main-pages
-    {
-        display: none;
-    }
+
+   
+
  
-    label 
-    {
-        width: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        font-size: 40px;
-        color: white;
-        cursor: pointer;
-    }
-	nav
-    {
-        height: 60px;
-    }
  
-    nav #main_pages 
-    {
-        display: none;
-        flex-direction: column;
-        background: #48435C;
-        height: 220px;
-    }
- 
-    nav #main_pages a {
-        width: 50%;
-    }
  
     
 	  
