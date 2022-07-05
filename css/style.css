@@ -13,7 +13,25 @@
 	background-color: #3e3e3e;
 }
 
+
 /*****************************  NAV + LOGO + HERO  *******************************************/
+#CmdMenu { 
+	position :fixed; 
+	top :4px; 
+	right :4px; 
+	z-index :50;
+	padding:5px 8px; 
+	color:white;
+	border-radius:5px;
+	cursor:pointer;
+  }
+
+  .burger-menu {
+	flex-direction:column;
+  }
+  #CmdMenu { 
+	display:block;
+  }
 
 .hero{
 	height: 100vh;
@@ -33,6 +51,9 @@ nav{
 	padding-left: 8%;
 	padding-right: 8%;
 }
+
+
+
 .logo{
 	color: white;
 	font-size: 45px;
@@ -57,6 +78,10 @@ nav ul li a:hover{
 	color: #7451EB;
 	transition: .4s;
 }
+
+
+
+
 .btn{
 	background-color:#7451EB;
 	color: white;
@@ -616,10 +641,6 @@ body, html, section, div{
 	display: none;
   }
 
-label, #toggle
-{
-    display: none;
-}
 
   @keyframes progressAnimation1 {
 	0%   { width: 5%; background-color: #7451EB;}
@@ -699,21 +720,7 @@ label, #toggle
         width: 50%;
     }
  
-    label 
-    {
-        width: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        font-size: 40px;
-        color: white;
-        cursor: pointer;
-    }
- 
-    #toggle:checked + #main_pages {
-        display: flex;
-    }
+    
 	  
 	h1{
 		
@@ -759,7 +766,7 @@ label, #toggle
 	#competences-bar{
 		display: flex;
 		flex-direction: column;
-		margin-left: 90px;
+		margin-left: 50px;
 		margin-top: 30px;
 		padding: 10px;
 	}
@@ -817,4 +824,8 @@ label, #toggle
 	#title-projets{
 		font-size: 35px; 
 	}
+	
+
+
+	
   }
